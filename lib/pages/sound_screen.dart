@@ -34,7 +34,7 @@ class _PlayRouteState extends State<PlayRoute> {
 
   playPause(sound) {
     if (initialPlay) {
-      //cache.play('audio/$sound.mp3');
+      player.play(AssetSource('audio/$sound.mp3'));
       playing = true;
       initialPlay = false;
     }
