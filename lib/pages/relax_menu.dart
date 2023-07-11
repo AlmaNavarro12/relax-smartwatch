@@ -106,10 +106,10 @@ class HomeRoute extends StatelessWidget {
                 physics: const BouncingScrollPhysics(),
                 child: Column(
                   children: [
-                    soundBtn('Rain', context),
-                    soundBtn('Forest', context),
-                    soundBtn('Sunset', context),
-                    soundBtn('Ocean', context),
+                    soundBtn('rain', context),
+                    soundBtn('forest', context),
+                    soundBtn('sunset', context),
+                    soundBtn('ocean', context),
                     const SizedBox(
                       height: 40,
                     ),
